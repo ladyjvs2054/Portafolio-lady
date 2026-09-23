@@ -46,7 +46,7 @@ export default function Page() {
 
   return (
     <main className="min-h-screen  overflow-hidden bg-[#101010] text-[#f2efe8] selection:bg-[#d8ff3e] selection:text-[#101010]">
-      <video autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover opacity-50">
+      <video autoPlay loop muted playsInline className="absolute inset-0 h-full w-full object-cover opacity-70">
           <source src="/loopPortafolioTech.mp4" type="video/mp4" />
           <source src="/loop.webm" type="video/webm" />
           </video>
